@@ -1,7 +1,14 @@
-import '../styles/globals.css'
+import CssBaseline from "@mui/material/CssBaseline";
+import "../styles/globals.css";
+import Sidebar from "../components/Sidebar/Drawer";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function Home({ Component, pageProps }) {
+  return (
+    <Sidebar>
+      <CssBaseline />
+      <Component {...pageProps} />
+    </Sidebar>
+  );
 }
 
-export default MyApp
+export default Home;

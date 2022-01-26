@@ -1,0 +1,94 @@
+.row {
+  background-color: #313639;
+  border-radius: 5px;
+  margin-bottom: 1ch;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-left: solid 1.5ch wheat;
+  animation-duration: 1s;
+  animation-name: entering;
+  overflow: hidden;
+}
+
+.text {
+  color: white;
+  font-weight: 550;
+  cursor: default;
+  letter-spacing: 0.6px;
+}
+
+.icon {
+  color: wheat;
+  cursor: pointer;
+}
+
+.row:nth-child(odd) {
+  background-color: #303540;
+}
+
+.None {
+  border-left: solid 1.5ch lightgray;
+}
+
+.Home {
+  border-left: solid 1.5ch darkcyan;
+}
+
+.Healthcare {
+  border-left: solid 1.5ch yellowgreen;
+}
+
+.Transport {
+  border-left: solid 1.5ch darkviolet;
+}
+
+.Food {
+  border-left: solid 1.5ch darkred;
+}
+
+.Traveling {
+  border-left: solid 1.5ch violet;
+}
+
+.Investments {
+  border-left: solid 1.5ch darkgreen;
+}
+
+.Maintenance {
+  border-left: solid 1.5ch darkorchid;
+}
+
+.Services {
+  border-left: solid 1.5ch darkorange;
+}
+
+.Miscellaneous {
+  border-left: solid 1.5ch darkseagreen;
+}
+
+.Eletronics {
+  border-left: solid 1.5ch darkgoldenrod;
+}
+
+.Entertainment {
+  border-left: solid 1.5ch darkslateblue;
+}
+
+.Education {
+  border-left: solid 1.5ch springgreen;
+}
+
+.Clothing {
+  border-left: solid 1.5ch black;
+}
+
+@keyframes entering {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

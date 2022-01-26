@@ -1,0 +1,12 @@
+.bg {
+  position: absolute;
+  width: 100%;
+  background-color: #242420;
+  background: linear-gradient(130deg, #1a1a1a 0%, #060606 100%);
+  min-height: 100vh;
+  overflow-y: hidden;
+}
+
+.icon {
+color: wheat;
+}

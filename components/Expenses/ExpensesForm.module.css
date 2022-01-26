@@ -1,0 +1,16 @@
+.menuItem {
+  color: gray;
+  font-weight: bold;
+  background: #303540;
+  padding: 6;
+}
+
+.focus {
+  color: black;
+  font-weight: bold;
+}
+
+.menuItem:hover {
+  background-color: darkslategray;
+  color: dimgray;
+}
