@@ -27,75 +27,82 @@ const HomePage = () => {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            margin: "1rem",
+            margin: "0.5rem",
           }}
         >
+          {/* background */}
           <div
             style={{
               height: "20vh",
               width: "10vw",
-              margin: "1rem",
-              border: "2px solid #22ffff",
+              margin: "0.5rem",
+              border: "4px solid #08657d",
               background: "linear-gradient(315deg, #171717 0%, #070707 100%)",
             }}
           />
-
+          {/* sidebar */}
           <div
             style={{
               height: "20vh",
               width: "10vw",
-              margin: "1rem",
-              border: "2px solid #22ffff",
+              margin: "0.5rem",
+              border: "4px solid #08657d",
               backgroundColor: "#211422",
             }}
           />
-
+          {/* text */}
           <div
             style={{
               height: "20vh",
               width: "10vw",
-              margin: "1rem",
-              border: "2px solid #22ffff",
-              backgroundColor: "#2A3A4A",
-            }}
-          />
-
-          <div
-            style={{
-              height: "20vh",
-              width: "10vw",
-              margin: "1rem",
-              border: "2px solid White",
+              margin: "0.5rem",
+              border: "4px solid #08657d",
               backgroundColor: "#DEADAD",
             }}
           />
-
+          {/* items */}
+          <div
+            style={{
+              height: "20vh",
+              width: "7vw",
+              margin: "0.5rem",
+              border: "4px solid #08657d",
+              backgroundColor: "#192333",
+            }}
+          />
+          <div
+            style={{
+              height: "20vh",
+              width: "7vw",
+              margin: "0.5rem",
+              border: "4px solid #08657d",
+              backgroundColor: "#102333",
+            }}
+          />
           <div
             style={{
               height: "20vh",
               width: "5vw",
               margin: "1rem 0.3rem",
-              border: "2px solid #DEADAD",
+              border: "4px solid #DEADAD",
               backgroundColor: "#960400",
             }}
           />
-
           <div
             style={{
               height: "20vh",
               width: "5vw",
               margin: "1rem 0.3rem",
-              border: "2px solid #DEADAD",
+              border: "4px solid #DEADAD",
               backgroundColor: "#023d07",
             }}
           />
-
           <div
             style={{
               height: "20vh",
               width: "5vw",
               margin: "1rem 0.3rem",
-              border: "2px solid #DEADAD",
+              border: "4px solid #DEADAD",
               backgroundColor: "#08657d",
             }}
           />

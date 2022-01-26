@@ -59,7 +59,7 @@ const TaskForm = (props) => {
       <Grid item xs={5}>
         <TextField
           style={{
-            backgroundColor: "#303540",
+            backgroundColor: "#192333",
             color: `${hasError ? "#FF6666" : "white"}`,
             width: "100%",
           }}

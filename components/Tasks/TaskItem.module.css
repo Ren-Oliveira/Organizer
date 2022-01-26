@@ -1,16 +1,16 @@
 .row {
-  background-color: #313639;
+  background-color: #102333;
   border-radius: 5px;
   margin-bottom: 2ch;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  border-left: solid 1.5ch wheat;
+  border-left: solid 1.5ch #deadad;
   animation-duration: 1s;
   animation-name: entering;
   overflow: hidden;
 }
 
 .row:nth-child(odd) {
-  background-color: #303540;
+  background-color: #192333;
 }
 
 .completed {
@@ -30,7 +30,7 @@
 }
 
 .icon {
-  color: wheat;
+  color: #deadad;
   cursor: pointer;
 }
 

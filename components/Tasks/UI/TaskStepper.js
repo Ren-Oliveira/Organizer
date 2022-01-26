@@ -57,7 +57,7 @@ const TaskStepper = (props) => {
       MuiStepIcon: {
         styleOverrides: {
           root: {
-            color: "wheat",
+            color: "#deadad",
             "& text": {
               fill: "transparent",
             },

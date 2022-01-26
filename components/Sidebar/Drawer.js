@@ -27,7 +27,7 @@ import { RiPieChartFill, RiLockFill, RiLockUnlockFill } from "react-icons/ri";
 import LinkName from "./UI/DrawerLink";
 import classes from "./Drawer.module.css";
 
-const drawerWidth = 180;
+const drawerWidth = 190;
 
 const openedDrawer = (theme) => ({
   width: drawerWidth,
@@ -157,9 +157,6 @@ export default function Sidebar(props) {
             </ListItem>
           </Link>
 
-          <br />
-          <br />
-          <br />
           <br />
 
           <Link href="/about">
