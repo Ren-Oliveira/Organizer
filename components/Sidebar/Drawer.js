@@ -97,8 +97,8 @@ export default function Sidebar(props) {
         open={open}
         PaperProps={{
           sx: {
-            backgroundColor: "#2a1a2a",
-            color: "#f5deb3",
+            backgroundColor: "#211422",
+            color: "#DEADAD",
           },
         }}
       >
@@ -124,7 +124,7 @@ export default function Sidebar(props) {
               <ListItemIcon className={classes.icon}>
                 {open ? <FaTasks /> : <FaListUl />}
               </ListItemIcon>
-              <LinkName title="Task" subtitle="MANAGER" />
+              <LinkName title="Tasks" />
             </ListItem>
           </Link>
 
@@ -133,7 +133,7 @@ export default function Sidebar(props) {
               <ListItemIcon className={classes.icon}>
                 {open ? <FaChartPie /> : <RiPieChartFill />}
               </ListItemIcon>
-              <LinkName title="Expense" subtitle="TRACKER" />
+              <LinkName title="Expenses" />
             </ListItem>
           </Link>
 
@@ -142,17 +142,7 @@ export default function Sidebar(props) {
               <ListItemIcon className={classes.icon}>
                 {!open ? <FaCookie /> : <FaCookieBite />}
               </ListItemIcon>
-              <LinkName title="Routine" subtitle="TRACKER" />
-            </ListItem>
-          </Link>
-          <br />
-
-          <Link href="/qna">
-            <ListItem button>
-              <ListItemIcon className={classes.icon}>
-                {!open ? <FaQuestion /> : <FaExclamation />}
-              </ListItemIcon>
-              <LinkName title="Q & A" />
+              <LinkName title="Routine" />
             </ListItem>
           </Link>
 
@@ -166,24 +156,24 @@ export default function Sidebar(props) {
               <LinkName title="Login" />
             </ListItem>
           </Link>
+
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <Link href="/about">
+            <ListItem button>
+              <ListItemIcon className={classes.icon}>
+                {!open ? <FaQuestion /> : <FaExclamation />}
+              </ListItemIcon>
+              <LinkName title="About" />
+            </ListItem>
+          </Link>
         </List>
       </Drawer>
 
-      <Box
-        className={classes.bg}
-        component="main"
-
-        // sx={{
-        //   position: "absolute",
-        //   width: "100%",
-        //   p: 1,
-        //   background: "#242431",
-        //   background: "linear-gradient(130deg, #242431 0%, #242420 100%)",
-        //   minHeight: "100vh",
-        //   overflowY: "hidden",
-        // }}
-      >
-        {/* <DrawerHeader /> */}
+      <Box className={classes.bg} component="main">
         <div
           style={{
             height: "100%",

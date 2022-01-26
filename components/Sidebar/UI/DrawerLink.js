@@ -1,19 +1,12 @@
 import { ListItemText, Typography } from "@mui/material";
 
-const LinkName = ({ title, subtitle }) => {
+const LinkName = ({ title }) => {
   return (
     <ListItemText
       primary={
-        <Typography variant="h6" style={{ fontWeight: "bold", color: "wheat" }}>
+        <Typography variant="h6" style={{ color: "#Deadad" }}>
           {title}
         </Typography>
-      }
-      secondary={
-        subtitle && (
-          <Typography variant="body2" style={{ color: "white" }}>
-            {subtitle}
-          </Typography>
-        )
       }
     />
   );

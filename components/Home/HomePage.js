@@ -8,33 +8,115 @@ const HomePage = () => {
 
   const inputTheme = createTheme({
     palette: {
-      secondary: { main: "#f5deb3" },
+      secondary: { main: "#DEADAD" },
     },
   });
 
   return (
     <ThemeProvider theme={inputTheme}>
-      <div style={{ margin: "2rem", color: "white" }}>
+      <div style={{ margin: "2rem" }}>
         <Divider>
-          <Typography variant="h4" color="wheat">
+          <Typography variant="h4" color="#DEADAD">
             Welcome to a sometimes usefull page!
           </Typography>
         </Divider>
 
-        <Button sx={{ height: "60vh" }} />
+        <div
+          style={{
+            height: "60vh",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            margin: "1rem",
+          }}
+        >
+          <div
+            style={{
+              height: "20vh",
+              width: "10vw",
+              margin: "1rem",
+              border: "2px solid #22ffff",
+              background: "linear-gradient(315deg, #171717 0%, #070707 100%)",
+            }}
+          />
+
+          <div
+            style={{
+              height: "20vh",
+              width: "10vw",
+              margin: "1rem",
+              border: "2px solid #22ffff",
+              backgroundColor: "#211422",
+            }}
+          />
+
+          <div
+            style={{
+              height: "20vh",
+              width: "10vw",
+              margin: "1rem",
+              border: "2px solid #22ffff",
+              backgroundColor: "#2A3A4A",
+            }}
+          />
+
+          <div
+            style={{
+              height: "20vh",
+              width: "10vw",
+              margin: "1rem",
+              border: "2px solid White",
+              backgroundColor: "#DEADAD",
+            }}
+          />
+
+          <div
+            style={{
+              height: "20vh",
+              width: "5vw",
+              margin: "1rem 0.3rem",
+              border: "2px solid #DEADAD",
+              backgroundColor: "#960400",
+            }}
+          />
+
+          <div
+            style={{
+              height: "20vh",
+              width: "5vw",
+              margin: "1rem 0.3rem",
+              border: "2px solid #DEADAD",
+              backgroundColor: "#023d07",
+            }}
+          />
+
+          <div
+            style={{
+              height: "20vh",
+              width: "5vw",
+              margin: "1rem 0.3rem",
+              border: "2px solid #DEADAD",
+              backgroundColor: "#08657d",
+            }}
+          />
+        </div>
 
         <Divider>
-          <Typography variant="h5" color="wheat">
+          <Typography variant="h5" color="#DEADAD">
             Navigate
           </Typography>
         </Divider>
         <Grid container direction="row" justifyContent="center">
           {tabs.map((tab) => {
             return (
-              <Grid item margin="0.75rem 1rem" key={uniqid()}>
+              <Grid item margin="0.75rem 1.5rem" key={uniqid()}>
                 <Link href={tab}>
-                  <Button color="secondary" variant="text">
-                    <strong>{tab}</strong>
+                  <Button
+                    color="secondary"
+                    variant="text"
+                    sx={{ padding: "0.5rem" }}
+                  >
+                    {tab}
                   </Button>
                 </Link>
               </Grid>

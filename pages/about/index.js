@@ -3,14 +3,17 @@ import { Typography, Divider } from "@mui/material";
 
 const TimeTable = () => {
   return (
-    <div style={{ margin: "2rem", color: "white" }}>
+    <div style={{ margin: "2rem 3.5rem", color: "white" }}>
       <Divider>
-        <Typography variant="h5" color="wheat">
-          Q & A
+        <Typography variant="h5" color="#Deadad">
+          <strong> About </strong>
         </Typography>
       </Divider>
 
-      <Typography margin="0 15vw 0 15vw">
+      <Typography
+        margin="0 15vw 0 15vw"
+        sx={{ fontSize: "1rem", letterSpacing: "1px" }}
+      >
         <br />
         <strong>Q: What about this page?</strong> <br />
         A: I'm building up my portfolio and this page manages to combine some
@@ -32,13 +35,14 @@ const TimeTable = () => {
         account, you data will be stored in a secure and incrypted database.
         This way you can clear your cookies and not lose any information. Once
         the information is lost, it can't be recovered. <br /> <br />
-        <strong>Q: Is there a way to use light-mode?</strong> <br />
+        <strong>Q: Is there a way to use light-mode on this page?</strong>{" "}
+        <br />
         A: No! Go away! <br />
         <br />
       </Typography>
 
       <Divider>
-        <Typography variant="h5" color="wheat">
+        <Typography variant="h6" color="#Deadad">
           <Link href="https://junio-o.web.app">Renato Oliveira</Link>
         </Typography>
       </Divider>
