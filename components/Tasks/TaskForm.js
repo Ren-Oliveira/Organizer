@@ -3,6 +3,7 @@ import { TextField, Typography, Grid } from "@mui/material";
 import uniqid from "uniqid";
 import FormLayout from "../UI/FormLayout";
 import AddButton from "../UI/AddButton";
+import InputDateForm from "../UI/InputDateForm";
 
 const TaskForm = (props) => {
   const [inputText, setInputText] = useState("");
@@ -56,6 +57,7 @@ const TaskForm = (props) => {
 
   return (
     <FormLayout>
+      <InputDateForm />
       <Grid item xs={5}>
         <TextField
           style={{
